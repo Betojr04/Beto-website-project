@@ -1,4 +1,5 @@
 import React from "react";
+import './Navbar.css';
 
 export const Navbar = () => {
     return (
@@ -19,7 +20,7 @@ export const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse position-absolute top-50 start-50 translate-middle" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul id='navbarMenu' className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
                 Home
@@ -62,17 +63,6 @@ export const Navbar = () => {
                 </ul>
             </li>
             </ul>
-            <form className="d-flex" role="search">
-            <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-            />
-            <button className="btn btn-outline-success" type="submit">
-                Search
-            </button>
-            </form>
         </div>
         </div>
     </nav>
