@@ -3,10 +3,10 @@ import './Jumbotron.css';
 
 export const Jumbotron = () => {
     return (
-    <div className="jumbotron jumbotron-fluid">
+    <div className="jumbotron">
         <div className="container">
-            <h1 className="display-4">Welcome Superstar</h1>
-            <p className="lead">this is where superstars are made</p>
+            <h1 className="display-4 text-white">Welcome Superstar</h1>
+            {/* <p className="lead text-white">this is where superstars are made</p> */}
         </div>
     </div>
     );
